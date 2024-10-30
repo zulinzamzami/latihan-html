@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Nama</title>
+</head>
+<body>
+    <form>
+    <input type="text" name="nama" id="nama" placeholder="Masukan nama anda">
+    <button type="submit" onclick=tampil() name="kirim">KIRIM</button>
+    <script>
+        function tampil(){
+            let nama = document.getElementById("nama");
+            let isitext = nama.value;
+            alert("Nama saya adalah "+isitext);
+        }
+    </script>
+    </form>
+</body>

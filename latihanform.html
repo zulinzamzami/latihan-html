@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulir Pendaftaran Ekstrakulikuler</title>
+</head>
+<body>
+    
+    <h2>Formulir Pendaftaran Ekstrakulikuler</h2>
+    <form name="formulir1" action="" method="post" enctype="multipart/form-data">
+        Nama : <input type="text" name="nama" placeholder="Nama"><br>
+        NIS : <input type="number" name="nis" placeholder="NIS"><br>
+        Jenis Kelamin : <input type="radio" name="jeniskelamin" value="Perempuan">Perempuan 
+                        <input type="radio" name="jeniskelamin" value="Laki laki">Laki laki<br>
+        Tempat Lahir : <input type="text" name="tempatlahir" placeholder="Tempat Lahir"><br>
+        Tanggal Lahir : <input type="date" name="tgllahir"><br>
+        Alamat : <textarea name="alamat" placeholder="Alamat"></textarea> <br>
+        Progam Keahlian :   <select name="proli">
+                            <option value="PPLG">PPLG</option>
+                            <option value="TJKT">TJKT</option>
+                            <option value="AKL">AKL</option>
+                            <option value="MPLB">MPLB</option>
+                            <option value="TE">TE</option>
+                            <option value="PM">PM</option>
+                            <option value="AP">AP</option>
+                            <option value="TB">TB</option>
+                            </select><br>
+
+        Email : <input type="email" name="email" placeholder="Email"><br>
+        Password : <input type="password" name="password" placeholder="Password"><br>
+        Ekstrakulikuler yang dipilih : <input type="checkbox" name="Ekstrakulikuler" value="Multimedia">Multimedia
+                                    <input type="checkbox" name="Ekstrakulikuler" value="Seni Tari">Seni Tari
+                                    <input type="checkbox" name="Ekstrakulikuler" value="PKS">PKS  
+                                    <input type="checkbox" name="Ekstrakulikuler" value="PMR">PMR<br>
+        <input type="submit" name="kirim" value="KIRIM">
+        <input type="reset" name="reset" value="RESET">               
+    </form>
+</body>
+</html>
